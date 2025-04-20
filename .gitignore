@@ -1,0 +1,11 @@
+__pycache__
+slidio.egg-info
+dist
+credentials.json
+.pytest_cache
+.coverage
+.ruff_cache
+.mypy_cache
+.black_cache
+.isort.cache
+.pre-commit.cache
