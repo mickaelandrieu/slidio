@@ -22,6 +22,14 @@
 
 ### Basic Usage
 
+First install the package:
+
+```bash
+pip install slidio
+```
+
+Then, authenticate on Google Slides and build your "recipe":
+
 ```python
 from py_slidio import SlidioClient
 from google.oauth2 import service_account

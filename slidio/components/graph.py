@@ -35,7 +35,7 @@ class GraphComponent:
                 break
 
         if not found:
-            raise ValueError(f"No element found with alt text '{{{{ {text_id} }}}}'")
+            raise ValueError(f"No element found with alt text '{{ {text_id} }}'")
 
         # Save and upload figure
         tmpfile = os.path.join(tempfile.gettempdir(), f"{uuid.uuid4()}.png")
